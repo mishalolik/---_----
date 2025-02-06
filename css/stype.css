@@ -1,0 +1,50 @@
+.header_row {
+    display: flex;
+
+    height: 68px;
+    border: 0px 0px 1px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #030712;
+    color: #D1D5DB;
+
+}
+
+.header_row ul {
+    display: flex;
+    gap: 24px;
+}
+
+.header_row_menu {
+    display: flex;
+}
+
+.h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.dm {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.hok {
+    font-family: Inter;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.rfgfmrgtjrg {
+    padding-left: 48px;
+    display: inline-flex;
+}
