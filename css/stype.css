@@ -60,7 +60,9 @@
 
 .header_main {
     color: #F9FAFB;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -84,13 +86,17 @@
 
 }
 
+.a {
+    display: flex;
+    align-items: center;
+}
+
 .kartinka {
     width: 200px;
     height: 320px;
-    padding-left: 1600px;
-    padding-bottom: 100px;
+
     border-width: 8px;
-    display: flex;
+    
     
 
 }
