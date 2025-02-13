@@ -89,6 +89,7 @@
 .a {
     display: flex;
     align-items: center;
+    padding-top: 48px;
 }
 
 .kartinka {
@@ -96,15 +97,64 @@
     height: 320px;
 
     border-width: 8px;
-    
-    
+
+
 
 }
-.opisanie, .name {
+
+.opisanie,
+.name {
     margin-top: 100px;
 }
 
 .br {
     color: #f9fafb;
+    display: flex;
+}
+
+.b {
+    display: flex;
+    padding-top: 8px;
+}
+
+.qwertyuiop {
+    padding-top: 96px;
+    padding-left: 48%;
+}
+
+main {
+    background-color: #111827;
+
+}
+
+.asdfghjkl {
+    padding-top: 48px;
+    width: 400px;
+    height: 600px;
+    
+    border-width: 8px;
+    
+
+}
+
+.c {
+    font-size: 30px;
+    color: #F9FAFB;
+    
+    
+    padding-top: 48px;
+
+    
+}
+.d {
+    font-size: 16px;
+    color: #D1D5DB;
+    
+    padding-top: 130px;
+    p
+    
+    
+}
+.port {
     display: flex;
 }
