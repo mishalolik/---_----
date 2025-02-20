@@ -275,7 +275,7 @@ main {
     justify-content: space-between;
     width: 896px;
     height: 288px;
-    padding-top: 32px;
+    padding: 32px;
 }
 
 .text_one {
@@ -285,19 +285,23 @@ main {
 
 }
 
+.text_two {
+    width: 384px;
+}
 
+.boat_col_3 {
+    width: 220px;
+
+}
 
 .sta {
-    text-align: right;
     color: #E5E7EB;
     display: flex;
     font-family: Inter;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
-
-
 }
 
 .hop {
