@@ -154,7 +154,7 @@ main {
     padding-top: 16px;
     word-spacing: 3px;
 
-
+    list-style-type: circle;
 
 
 }
@@ -246,6 +246,18 @@ main {
     height: 1140px;
 }
 
+.main_exp_section1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
 .df {
     font-size: 20px;
     color: #D1D5DB;
@@ -258,7 +270,10 @@ main {
     border-radius: 12px;
     border: 1px solid #D1D5DB;
     display: flex;
-
+    justify-content: space-around;
+    width: 896px;
+    height: 288px;
+    padding-top: 32px;
 }
 
 .text_one {
@@ -268,16 +283,12 @@ main {
 
 }
 
-.hop {
-    padding: 32px 762px 228px 32px;
-}
+
 
 .sta {
     text-align: right;
     color: #E5E7EB;
     display: flex;
-    padding-left: 725px;
-    padding-top: 32px;
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
@@ -285,6 +296,11 @@ main {
     letter-spacing: 0%;
 
 
+}
+
+.hop {
+    width: 102px;
+    height: 28px;
 }
 
 .vbn {
@@ -294,8 +310,6 @@ main {
     line-height: 24px;
     letter-spacing: 0%;
     color: #E5E7EB;
-    text-align: center;
-    padding-top: 32px;
 
 }
 .il {
