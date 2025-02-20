@@ -250,6 +250,7 @@ main {
     display: flex;
     justify-content: center;
     
+    
 }
 
 .one {
@@ -263,6 +264,7 @@ main {
     color: #D1D5DB;
     text-align: center;
     padding-top: 16px;
+    padding-bottom: 48px;
 }
 
 .boat {
@@ -270,7 +272,7 @@ main {
     border-radius: 12px;
     border: 1px solid #D1D5DB;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 896px;
     height: 288px;
     padding-top: 32px;
@@ -301,6 +303,7 @@ main {
 .hop {
     width: 102px;
     height: 28px;
+    
 }
 
 .vbn {
