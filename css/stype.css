@@ -249,8 +249,8 @@ main {
 .main_exp_section1 {
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
 
 .one {
@@ -306,7 +306,7 @@ main {
 .hop {
     width: 102px;
     height: 28px;
-    
+
 }
 
 .vbn {
@@ -318,14 +318,65 @@ main {
     color: #E5E7EB;
 
 }
+
 .il {
     width: 20px;
     height: 20px;
     padding-top: 15px;
 }
+
 .main_work {
     background-color: #030712;
+    align-items: center;
+    height: 1848px;
+
 }
+
+.sections {
+    justify-content: center;
+    display: flex;
+
+}
+
 .two_div {
+    width: 1152px;
+    height: 480px;
+    border-radius: 12px;
+    background-color: #1F2937;
+
+    box-shadow: 0px 25px 25px 0px #00000026;
+
+
+}
+
+.gstatic {
+    width: 580px;
+    height: 284px;
+    border-radius: 12px;
+    padding-top: 50px;
+
+}
+
+.Imges {
+    display: flex;
+    
+    flex-direction: column;
+    width: 576px;
+    height: 480px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-right-width: 1px;
+    padding: 48px;
+    background-color: #374151;
+
+
+}
+.Work {
     
 }
+.i {
+    gap: 40px;
+}
+
+
+
