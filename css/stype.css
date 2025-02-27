@@ -350,23 +350,23 @@ main {
 }
 
 .gstatic {
-    width: 580px;
-    height: 284px;
+    width: 480px;
+    height: 240px;
     border-radius: 12px;
-    padding-top: 50px;
-
+    padding: 48px;
+    
 }
 
 .Imges {
     display: flex;
-    
+    justify-content: center;
     flex-direction: column;
     width: 576px;
     height: 480px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-right-width: 1px;
-    padding: 48px;
+
     background-color: #374151;
 
 
@@ -375,6 +375,8 @@ main {
     
 }
 .i {
+    display: flex;
+    flex-direction: column;
     gap: 40px;
 }
 
