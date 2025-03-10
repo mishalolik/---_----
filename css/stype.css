@@ -625,15 +625,23 @@ main {
         padding: 16px;
         display: flex;
     }
-    .dm, .hok {
+
+    .dm,
+    .hok {
         display: none;
     }
+
     .rfgfmrgtjrg {
         display: none;
     }
-    .header_main {
-        flex-direction: column;
+
+    .header {
         height: auto;
+
+    }
+
+    .header_main {
+        flex-direction: column-reverse;
     }
 
 }
