@@ -670,13 +670,18 @@ main {
         padding-bottom: 64px;
 
     }
-    .main_exp_section1 {
-        display: flex;
+    .boat {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+    
+    .text_one {
         flex-direction: column-reverse;
     }
-    .boat_col_3 {
-        width: 100px;
-        
+    .text_two {
+        width: auto;
     }
 
 }
+
