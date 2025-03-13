@@ -678,10 +678,25 @@ main {
     
     .text_one {
         flex-direction: column-reverse;
+        gap: 16px;
     }
     .text_two {
         width: auto;
     }
-
+    .two_div {
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .main_work {
+        height: auto;
+    }
+    .two_div_2 {
+        flex-direction:column ;
+        height: auto;
+    }
+    .sections {
+        width: auto;
+    }
 }
 
