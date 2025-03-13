@@ -616,6 +616,10 @@ main {
 
 }
 
+.nl {
+    margin-top: 48px;
+}
+
 .rr {
     display: none;
 }
@@ -642,6 +646,37 @@ main {
 
     .header_main {
         flex-direction: column-reverse;
+    }
+    .h2 {
+        padding: 0px;
+    }
+
+   
+    .port {
+        flex-direction: column;
+        display: flex;
+        height: auto;
+    }
+    .c {
+        text-align: center;
+    }
+    .main_about_me_text {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+
+    }
+    .main_exp_section1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .boat_col_3 {
+        width: 100px;
+        
     }
 
 }
