@@ -686,7 +686,8 @@ main {
     .two_div {
         flex-direction: column;
         height: auto;
-        
+        width: auto;
+
     }
     .main_work {
         height: auto;
@@ -694,9 +695,22 @@ main {
     .two_div_2 {
         flex-direction:column ;
         height: auto;
-    }
-    .sections {
         width: auto;
+
     }
+
+    .Imges {
+        width: auto;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 12px;  
+    }
+    .wsx {
+        padding-left: 0px;
+    }
+    .gstatic {
+        width: 279px;
+        height: 192px;
+    }
+
 }
 
